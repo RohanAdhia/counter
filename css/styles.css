@@ -80,15 +80,20 @@ body {
 }
 
 .btn {
+  outline: none !important;
+}
+
+.btn-custom {
   display: inline-block;
   border-radius: 50%;
   background-color: Transparent;
   color: #FFFF;
   border: solid 10px;
   border-width: medium;
-  font-size: 3rem;
-  height: 5rem;
-  width: 5rem;
+  font-size: 30px;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
   margin: 2rem;
   outline: none;
 }
@@ -100,7 +105,7 @@ body {
   color: #FFFF;
   border: solid 10px;
   border-width: medium;
-  font-size: 1.5rem;
+  font-size: 20px;
   height: 3rem;
   width: 3rem;
   outline: none;
